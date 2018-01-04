@@ -1,0 +1,8 @@
+{
+   "id": "timelineSearch",
+   "version": "0.0.1",
+   "name": "Timeline search",
+   "author": "SiteVision AB",
+   "description": "A simple timeline search",
+   "helpUrl": "https://developer.sitevision.se/webapps"
+}
