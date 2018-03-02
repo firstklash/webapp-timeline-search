@@ -32,7 +32,7 @@ define(function(require) {
                entries.push({
                   author: propertyUtil.getString(author, 'displayName'),
                   entryText: hit.getField('summary'),
-                  profileImageUrl: propertyUtil.getString(profileImage, 'URI')
+                  profileImageUrl: propertyUtil.getString(profileImage, 'URI', '')
                });
             }
          }
