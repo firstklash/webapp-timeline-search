@@ -3,18 +3,24 @@
   "version": "0.0.1",
   "description": "Timeline search",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitevision/webapp-timeline-search.git"
+  },
   "author": "SiteVision AB",
   "license": "MIT",
   "scripts": {
     "setup": "grunt setup",
     "zip": "grunt zip",
     "deploy": "grunt deploy",
-    "force-deploy": "grunt deploy --force-deploy"
+    "force-deploy": "grunt deploy --force-deploy",
+    "create-addon": "grunt create-addon"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-compress": "^1.4.3",
     "grunt-http-upload": "^0.3.2",
-    "grunt-prompt": "^1.3.0"
+    "grunt-prompt": "^1.3.0",
+    "grunt-http": "^2.3.0"
   }
 }
