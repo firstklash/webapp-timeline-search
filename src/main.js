@@ -6,7 +6,6 @@ define(function(require) {
       Component  = require('Component'),
       requester  = require('requester'),
       router     = require('router'),
-      app        = require('app'),
       store      = require('store'),
       template   = require('/template/main');
 
